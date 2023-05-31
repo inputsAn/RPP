@@ -65,10 +65,6 @@ def random_b_wo_func(B):
     B += [int(999)]
 
 
-
-min_row_id = 0
-
-
 def main_func():  # главная функция в которой происходит обработка списка
     # Находим самую длинную цепочку в списке A
     longest_chain_A, index_A = [], 0
